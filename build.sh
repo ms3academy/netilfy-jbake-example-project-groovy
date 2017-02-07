@@ -1,4 +1,7 @@
 #!/bin/bash
-wget http://jbake.org/files/jbake-2.5.1-bin.zip
-unzip -o jbake-2.5.1-bin.zip
-jbake-2.5.1/bin/jbake -b
+jbake_version=$1
+echo "downloading jBake v$jbake_version"
+wget --quiet http://jbake.org/files/jbake-$jbake_version-bin.zip
+echo "unzipping jBake v$jbake_version"
+unzip -o -q jbake-$jbake_version-bin.zip
+jbake-$jbake_version/bin/jbake -b

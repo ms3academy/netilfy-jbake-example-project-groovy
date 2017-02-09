@@ -8,7 +8,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="<%if (content.rootpath) {%>${content.rootpath}<% } else { %><% }%>">JBake</a>
+          <a class="navbar-brand" href="<%if (content.rootpath) {%>${content.rootpath}<% }%>index.html">JBake on Netlify</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">

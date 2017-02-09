@@ -7,7 +7,7 @@ status=published
 
 ## Prerequisites
 1. a [Netlify](https://www.netlify.com/) account and
-2. a GitHub, Bitbucket or GitLab account.
+2. a [GitHub](https://github.com), [Bitbucket](https://bitbucket.org/) or [GitLab](https://gitlab.com/) account.
 
 ## If you start from scratch ...
 1. Import [this demo project](https://github.com/Mushiyo/netilfy-jbake-example-project-groovy) to your GitHub, Bitbucket or GitLab account.  
@@ -29,7 +29,7 @@ Assume the root of your Git repo and the root of your JBake project are the same
 2. The following steps are almost the same as step 2~7 in the start from scratch section of this post. Since you have an existing project, I assume you are a advanced user and will know what to do after reading these steps. 
  
 **Note 1**  
-If you want to build your project with specific version of JBake, then in step 6 of the start from scratch section, set **Build Cmd** to `sh build.sh [JBake_version]`. For example, if `sh build.sh 2.4.0` is set, the Netlify will build the project with JBake v2.4.0.
+If you want to build your project with specific version of JBake, then in step 6 of the start from scratch section, set **Build Cmd** to `sh build.sh [JBake_version]`. For example, if `sh build.sh 2.4.0` is set, then Netlify will build the project with JBake v2.4.0.
     
 **Note 2**  
 If your Git repo and the root of your JBake project are not the same, you can still build the project by either modify `build.sh` or **Build Cmd**.

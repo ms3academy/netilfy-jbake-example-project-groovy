@@ -12,15 +12,15 @@ status=published
 ## If you start from scratch ...
 1. Import [this demo project](https://github.com/Mushiyo/netilfy-jbake-example-project-groovy) to your GitHub, Bitbucket or GitLab account.  
 2. Login to Netlify then press `ADD TO A NEW PROJECT`.
-<img src="img/netlify-jbake-scratch-step2.jpg" class="img-responsive" alt="Responsive image">  
-3. On the left column, click where you import the demo project to. For example, if you import the demo project to your GitLab account, click GitLab.  . <img src="img/netlify-jbake-scratch-step3.jpg" class="img-responsive" alt="Responsive image">  
+<img src="/img/netlify-jbake-scratch-step2.jpg" class="img-responsive" alt="Responsive image">  
+3. On the left column, click where you import the demo project to. For example, if you import the demo project to your GitLab account, click GitLab.  . <img src="/img/netlify-jbake-scratch-step3.jpg" class="img-responsive" alt="Responsive image">  
 4. Netlify may ask for permissions so it can access your Git repository. Granted Netlify to go to step 5.
 5. Find `netilfy-jbake-example-project-groovy` in the repo list, then click it.  
-<img src="img/netlify-jbake-scratch-step5.jpg" class="img-responsive" alt="Responsive image">  
+<img src="/img/netlify-jbake-scratch-step5.jpg" class="img-responsive" alt="Responsive image">  
 6. On the form, set **Public folder** to `output` and set **Build Cmd** to `sh build.sh`, then press `Build your site`. Netlify will start building the project with latest version of JBake.
-<img src="img/netlify-jbake-scratch-step6.jpg" class="img-responsive" alt="Responsive image">  
+<img src="/img/netlify-jbake-scratch-step6.jpg" class="img-responsive" alt="Responsive image">  
 7. Wait a few second until `View your site` button appears on the right of the screen. Click the button, if you see a website looks the same as this one, you've successfully deployed your JBake project on Netlify, congratulation!
-<img src="img/netlify-jbake-scratch-step7.jpg" class="img-responsive" alt="Responsive image"> 
+<img src="/img/netlify-jbake-scratch-step7.jpg" class="img-responsive" alt="Responsive image"> 
 
 ## If you have an existing project on GitHub/Bitbucket/GitLab ...
 Assume the root of your Git repo and the root of your JBake project are the same.  

@@ -22,7 +22,7 @@ else
     jbake_version=$1
 fi
 echo "downloading JBake v$jbake_version"
-wget --quiet http://jbake.org/files/jbake-$jbake_version-bin.zip
+wget --quiet https://dl.bintray.com/jbake/binary/jbake-$jbake_version-bin.zip
 echo "unzipping JBake v$jbake_version"
 unzip -o -q jbake-$jbake_version-bin.zip
 jbake-$jbake_version/bin/jbake -b

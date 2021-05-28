@@ -17,7 +17,7 @@
 #
 if [ $# -eq 0 ]
 then # if no argument passed in, set jBake to latest version
-    jbake_version=2.5.1
+    jbake_version=2.6.7
 else
     jbake_version=$1
 fi
